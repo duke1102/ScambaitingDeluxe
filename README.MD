@@ -15,7 +15,8 @@ If a match is found it will execute a JavaScript snippet in that Instance and by
 
 **(!!!) WORK IN PROGRESS: The tool is not yet ready for productive use.**
 
-![Browser Tabs Monitor Preview Video](https://streamable.com/s/ja4j9/zlwxql)
+![Browser Tabs Monitor Preview Video](https://media.giphy.com/media/2sbooDZ9qj9WCrSo4M/200w_d.gif)
+<sup>Higher Resolution: [Click](https://media.giphy.com/media/2sbooDZ9qj9WCrSo4M/giphy.gif)</sup>
 
 ## Contributing
 
